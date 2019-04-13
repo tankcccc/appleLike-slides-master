@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>slideshow</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="../slides-demo-1/main.js"></script>
+
+
+</head>
+<body>
+    <h1>
+        Apple-like Gallery
+        <br>
+        <b>Slideshow</b>
+    </h1>
+    <div class="gallery">
+        <div class='window'>
+            <div id='images' class='images'>
+                <img src="macbook.jpg" alt="macbook.jpg">
+                <img src="iphone.jpg" alt="iphone.jpg">
+                <img src="imac.jpg" alt="imac.jpg">
+                <img src="info.jpg" alt="info.jpg">
+            </div>
+        </div>
+        <div id='menu' class="menu">
+            <ul class="clearfix">
+                <li class="menuBar">&nbsp;</li>
+                <li class="menuItem active"><img src="thumb_macbook.png" alt="thumb_macbook.png"></li>
+                <li class="menuBar">&nbsp;</li>
+                <li class="menuItem hover"><img src="thumb_iphone.png" alt="thumb_iphone.png"></li>
+                <li class="menuBar">&nbsp;</li>
+                <li class="menuItem"><img src="thumb_imac.png" alt="thumb_imac.png"></li>
+                <li class="menuBar">&nbsp;</li>
+                <li class="menuItem"><img src="thumb_about.png" alt="thumb_about.png"></li>
+                <li class="menuBar">&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+
+</body>
+</html>
